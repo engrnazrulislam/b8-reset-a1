@@ -238,6 +238,7 @@ header .banner-text {
 
 /* Holiday Section Styles */
 #holiday-section {
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,28 +278,32 @@ header .banner-text {
 
 #holiday-section .holiday-photo {
     display: flex;
-    margin-top: 64px;
-    align-items:first baseline;
-    max-width:1320px;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1320px;
     width: 100%;
+    gap: 20px;
 }
-.holiday-photo .first-img{
+
+.holiday-photo .first-img {
     position: relative;
-    width:40%;
-    top:240px;
-    left:-10px;
+    width: 40%;
+    top: 240px;
+    left: 0px;
     z-index: 3;
 }
-.holiday-photo .second-img{
-    width:40%;
+
+.holiday-photo .second-img {
+    width: 40%;
     position: relative;
-    left:200px;
+    left: 150px;
     z-index: 2;
 }
-.holiday-photo .third-img{
-    width:40%;
+
+.holiday-photo .third-img {
+    width: 40%;
     position: relative;
-    top:5px;
+    top: 6px;
     z-index: 1;
 }
 
@@ -306,4 +311,112 @@ header .banner-text {
     max-width: 1320px;
     width: 100%;
     height: 229px;
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    margin-top: 120px;
+    max-width: 1320px;
+    width: 100%;
+}
+
+#portfolio .portfolio-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#portfolio .portfolio-text h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#portfolio .portfolio-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 16px 0px;
+}
+
+#portfolio .portfolio-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 896px;
+    width: 100%;
+}
+
+#portfolio .portfolio-img {
+    padding-top: 48px;
+    border-radius: 16px;
+    max-width: 345px;
+    width: 100%;
+    height: 369px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* Newsletter Section Styles */
+#newsletter {
+    margin-top: 680px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 110px;
+    margin-bottom: 120px;
+}
+
+#newsletter .newsletter-img {
+    padding-bottom: 40px;
+}
+
+#newsletter .newsletter-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#newsletter .newsletter-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 22px;
+    padding-bottom: 48px;
+}
+
+#newsletter .newsletter-form .input-text {
+    max-width: 648px;
+    width: 100%;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+
+}
+
+#newsletter .newsletter-form .input-btn {
+    max-width: 210px;
+    width: 100%;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+}
+
+#newsletter .newsletter-form input[type=email] {
+    padding-left: 20px;
+    background: #FFF;
+}
+
+/* Footer Section Style */
+footer {
+    width: 1600px;
+    height: 609px;
 }
