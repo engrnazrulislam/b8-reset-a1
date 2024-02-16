@@ -177,7 +177,7 @@ header .banner-text {
 #coming-soon {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-between;
     gap: 5px;
     margin-bottom: 120px;
 }
@@ -201,16 +201,16 @@ header .banner-text {
 #coming-soon .title p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    max-width:393px;
+    max-width: 393px;
     width: 100%;
     font-size: 20px;
     font-weight: 400;
 }
 
-#coming-soon .img{
+#coming-soon .img {
     border-radius: 365px;
-    border:15px solid red;
-    padding:25px;
+    border: 15px solid red;
+    padding: 25px;
 }
 
 #coming-soon .year h2 {
@@ -223,15 +223,65 @@ header .banner-text {
 #coming-soon .year p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    max-width:276px;
+    max-width: 276px;
     width: 100%;
     font-size: 20px;
     font-weight: 400;
-    padding-top:20px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #coming-soon .year img {
     width: 140px;
     height: 140px;
+}
+
+/* Holiday Section Styles */
+#holiday-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#holiday-section h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#holiday-section h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 28px 0px;
+}
+
+#holiday-section h2 span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#holiday-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 1068px;
+    width: 100%;
+    text-align: center;
+}
+
+#holiday-section .holiday-photo {
+    display: flex;
+    width: 100%;
+}
+
+#holiday-section > img {
+    max-width: 1320px;
+    width:100%;
+    height: 229px;
 }
