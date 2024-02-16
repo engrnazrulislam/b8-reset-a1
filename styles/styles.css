@@ -6,12 +6,6 @@
     padding: 0;
 }
 
-body {
-    max-width: 1320px;
-    width: 100%;
-    margin: 50px auto;
-}
-
 /* Banner Style Section */
 header {
     background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../resources/Banner\ Image.png');
@@ -23,6 +17,9 @@ header {
     text-align: center;
     font-family: Merriweather;
     color: #fff;
+    max-width: 1320px;
+    width: 100%;
+    margin: 50px auto;
 }
 
 header .banner-title {
@@ -47,6 +44,9 @@ header .banner-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1320px;
+    width: 100%;
+    margin: 50px auto;
 }
 
 #offer-section .offer-text {
@@ -89,6 +89,9 @@ header .banner-text {
     background-size: cover;
     background-position: center;
     height: 600px;
+    max-width: 1320px;
+    width: 100%;
+    margin: 50px auto;
 }
 
 #party-section .party-container {
@@ -135,6 +138,9 @@ header .banner-text {
     height: 482px;
     margin: 120px auto;
     font-family: Inter;
+    max-width: 1320px;
+    width: 100%;
+    margin: 50px auto;
 }
 
 #location-date-section .location-date-div {
@@ -180,6 +186,9 @@ header .banner-text {
     justify-content: space-between;
     gap: 5px;
     margin-bottom: 120px;
+    max-width: 1320px;
+    width: 100%;
+    margin: 50px auto;
 }
 
 #coming-soon .title h3 {
@@ -242,6 +251,9 @@ header .banner-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1320px;
+    width: 100%;
+    margin: 50px auto;
 }
 
 #holiday-section h3 {
@@ -318,6 +330,7 @@ header .banner-text {
     margin-top: 120px;
     max-width: 1320px;
     width: 100%;
+    margin: 50px auto;
 }
 
 #portfolio .portfolio-text {
@@ -363,13 +376,15 @@ header .banner-text {
 
 /* Newsletter Section Styles */
 #newsletter {
-    margin-top: 680px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding-top: 80px;
     text-align: center;
     padding-bottom: 110px;
     margin-bottom: 120px;
+    max-width: 1320px;
+    width: 100%;
+    margin: 680px auto 0px;
 }
 
 #newsletter .newsletter-img {
@@ -417,6 +432,54 @@ header .banner-text {
 
 /* Footer Section Style */
 footer {
-    width: 1600px;
+    background: #070211;
+    ;
+    max-width: 1600px;
+    width: 100%;
     height: 609px;
+    margin: 50px auto;
+    padding: 120px 140px;
+}
+
+footer .footer-address {
+    color: #FFF;
+    max-width: 1320px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+footer .footer-address .address-text {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 50px
+}
+
+footer .footer-socialmedia {
+    padding-top: 50px;
+}
+
+footer .footer-socialmedia ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    ;
+}
+
+footer .footer-rights {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
